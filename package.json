@@ -1,0 +1,31 @@
+{
+  "name": "theatre-r3f-vite-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.68.0",
+    "@react-three/fiber": "^8.13.0",
+    "@theatre/core": "~0.6.1",
+    "@theatre/r3f": "~0.6.1",
+    "@theatre/studio": "~0.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.152.2",
+    "three-stdlib": "^2.21.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/three": "^0.152.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  }
+}
